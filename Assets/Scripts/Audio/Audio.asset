@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1319e01866b8d7b47a19f98c5dc15c0f, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  music:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 024589c44d26a324fbbbc743d0ccefc8, type: 3}
+    pitch: 1.02
+    volume: 1.03
+    ambience: 0.1
+    source: {fileID: 7619866315926071368, guid: c783ba7ed967f4145a5e3801ca940312,
+      type: 3}
+    fxSource: {fileID: 0}
+    AudioLowPassFilter: {fileID: 3417843220671259998, guid: c783ba7ed967f4145a5e3801ca940312,
+      type: 3}
+    loop: 1
+  fxSounds:
+  - name: DeathSound
+    clip: {fileID: 8300000, guid: 159245ec3ba86b24cabcfa14333f4b71, type: 3}
+    pitch: 1
+    volume: 1
+    ambience: 0
+    source: {fileID: 4160688027400812250, guid: 4b368abbd76a345448953795a668f152,
+      type: 3}
+    fxSource: {fileID: 4160688027400812250, guid: 4b368abbd76a345448953795a668f152,
+      type: 3}
+    AudioLowPassFilter: {fileID: 0}
+    loop: 0
+  maxCutoffFrequency: 5000
+  minCutoffFrequency: 230
+  maxResonanceQ: 1.75
+  minResonanceQ: 1
+  musicSource: {fileID: 7619866315926071368, guid: c783ba7ed967f4145a5e3801ca940312,
+    type: 3}
+  sfxSource: {fileID: 4160688027400812250, guid: 4b368abbd76a345448953795a668f152,
+    type: 3}
